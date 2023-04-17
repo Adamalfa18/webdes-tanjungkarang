@@ -1,0 +1,73 @@
+.carousel-test {
+    object-fit: cover;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+@media only screen and (max-width: 412px) {
+    .col-footer-last {
+        order: 5;
+    }
+}
+
+.ukuran-select {
+    width: 100% !important;
+}
+
+.btn-layanan {
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 10px;
+}
+
+a.btn-layanan:hover {
+    background-color: rgb(212, 212, 212) !important;
+    color: white;
+}
+
+.card-utama {
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .04), 0 0 6px rgba(0, 0, 0, .03);
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    cursor: pointer;
+}
+
+.card-utama:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .5), 0 4px 8px rgba(0, 0, 0, .03);
+}
+
+.dashboard-logo img {
+    /* border: 1px solid black; */
+    width: 225px;
+    height: 100% !important;
+    margin-bottom: -30px !important;
+}
+
+.navbar-logo img {
+    /* border: 1px solid black; */
+    width: 150px;
+    height: 100% !important;
+    /* margin-bottom: -30px !important; */
+}
+
+.footer-logo img {
+    width: 100px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.fix-header {
+    margin-top: 200px !important;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        margin: 1.75rem auto !important;
+        max-width: 900px !important;
+    }
+}
+
+.posisi-btn {
+    float: right;
+}
